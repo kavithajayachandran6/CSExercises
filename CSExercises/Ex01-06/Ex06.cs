@@ -10,7 +10,13 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
-            
+            int num = 0;
+            Console.WriteLine("Keyin an inetger ");
+            String numString = Console.ReadLine();
+            num = Convert.ToInt32(numString);
+            double sqnum = Math.Sqrt(num); ;
+            Console.WriteLine("The square of " + num + " =" + sqnum); 
+          
         }
     }
 }
