@@ -10,6 +10,10 @@ namespace CSExercises
     {
         public static void Main(string[] args)
         {
+            Console.WriteLine("Key in tempartaure in Centigrade");
+            double centigrade=Double.Parse(Console.ReadLine());
+            double Fa = 1.8 * centigrade + 32;
+            Console.WriteLine("The Fahrenheit equivalent is " + Fa);
             
         }
     }
